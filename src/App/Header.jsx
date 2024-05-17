@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import { Cabecalho } from "../Style/Index";
 
 const Header = () => {
     return(
-        <header>
+        <Cabecalho>
             <Link to={'/'}>Pagina Incial</Link>
-            <Link to={'/'}>Sobre</Link>
-            <Link to={'/'}>Contato</Link>
-        </header>
+            <Link to={'/sobre'}>Sobre</Link>
+            <Link to={'/contato'}>Contato</Link>
+        </Cabecalho>
     )
 }
 

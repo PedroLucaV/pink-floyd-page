@@ -1,7 +1,9 @@
 const Home = () => {
     return (
     <>
-        <h1>A</h1>
+        <main>
+            <h1>Pink Floyd, Página de Fã</h1>
+        </main>
     </>
     )
 }
