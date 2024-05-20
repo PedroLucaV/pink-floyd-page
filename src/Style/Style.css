@@ -1,5 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+#root{
+    display: grid;
+}
+
+body{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: floyd;
+    src: url('../Assets/floyd.TTF');
+}
+
+.Rights {
+    font-family: floyd;
+}
+
+.imageLogo {
+    width: 250px;
+}
+
+.raibow {
+    width: 100%;
+}
+
+.Spot {
+    width: 140px;
+    align-self: flex-end;
 }
