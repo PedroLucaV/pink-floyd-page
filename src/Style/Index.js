@@ -37,6 +37,8 @@ export const a = styled.div`
 `
 
 export const FooterDiv = styled.footer`
+    align-self: end;
+    justify-self: center;
     color: ${Cores.white};
     background-color: ${Cores.black};
     display: flex;
@@ -45,8 +47,27 @@ export const FooterDiv = styled.footer`
     width: 100%;
     gap: 20px;
     padding: 8px 0;
-    height: auto;
-    justify-self: end;
+    height: 130px;
+    justify-self: flex-end;
+`
+
+export const Carrossel = styled.ul`
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+`
+
+export const List = styled.li`
+    list-style: none;
+    position: absolute;
+`
+
+export const Main = styled.main`
+    align-self: center;
+    justify-self: center;
 `
 
 export const LinksFooter = styled.div`

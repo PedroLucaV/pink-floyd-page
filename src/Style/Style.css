@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-#root{
+#root {
     display: grid;
 }
 
-body{
+body {
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -28,10 +28,22 @@ body{
 }
 
 .raibow {
+    height: 25px;
     width: 100%;
 }
 
 .Spot {
     width: 140px;
     align-self: flex-end;
+}
+
+.asd {
+    display: grid;
+}
+
+.img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
 }
