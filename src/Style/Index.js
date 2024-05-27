@@ -5,7 +5,7 @@ const Cores = {
     white: "#fff"
 }
 
-export const Cabecalho = styled.header`
+export const Cabecalho = styled.nav`
     display: flex;
     width: 100vw;
     align-items: center;
@@ -82,4 +82,10 @@ export const SpotFi = styled.div`
     align-self: flex-end;
     padding-right: 40px;
     padding-top: 20px;
+`
+
+export const Login = styled.button`
+    color: white;
+    width: 75px;
+    height: 30px;
 `

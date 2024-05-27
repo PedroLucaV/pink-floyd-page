@@ -6,6 +6,7 @@ import Carreira from "../Routes/Carreira";
 import Integrantes from "../Routes/Integrantes";
 import Footer from "./Footer.jsx";
 import Pagina404 from "../Routes/Pagina404.jsx"
+import Login from '../Routes/Login';
 
 const App = () => {
     return(<div className="asd">
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path="/sobre" element={<Sobre />} />
                 <Route path="/carreira" element={<Carreira />} />
                 <Route path="/integrantes" element={<Integrantes />} />
+                <Route path="/Login" element={<Login />} />
                 <Route path="*" element={<Pagina404 />}/>
             </Routes>
             <Footer/>
